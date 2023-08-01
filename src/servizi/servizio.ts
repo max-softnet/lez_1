@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const BaseUrl = "https://terminal-svil.f4c.it";
+export const BaseUrl = "http://api.citybik.es/v2/networks";
 
 export const navi = axios.create({
-  baseURL: `${BaseUrl}/Nave/` 
+  baseURL: `${BaseUrl}` 
 })
